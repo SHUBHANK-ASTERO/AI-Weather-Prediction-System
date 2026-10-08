@@ -11,8 +11,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 
-MODEL_PATH = "weather_model.pkl"
-DATA_PATH = "data/weather.csv"
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "weather_model.pkl")
+DATA_PATH = os.path.join(os.path.dirname(__file__), "weather.csv")
 
 st.set_page_config(
     page_title="AI Weather Prediction",
