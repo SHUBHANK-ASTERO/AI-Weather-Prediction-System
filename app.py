@@ -11,7 +11,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 
-MODEL_PATH = "model/weather_model.pkl"
+MODEL_PATH = "weather_model.pkl"
 DATA_PATH = "data/weather.csv"
 
 st.set_page_config(
